@@ -1,0 +1,1 @@
+This is my silly little project repo where I will learn the basics of HTML, CSS, and Javascript and create a joke website of Nan.com in the process
