@@ -1,0 +1,1 @@
+This contains online examples of websites that I did not entirely make myself such as practice excercises and such
