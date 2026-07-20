@@ -1,0 +1,1 @@
+This version of nan.com uses nothing but HTML language and a little bit of header metadata. It was the first prototype of nan.com
