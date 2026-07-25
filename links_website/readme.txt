@@ -1,0 +1,1 @@
+this started as a practice for linking images and web pages and quickly turned into its own mini website project as I kept thinking of more absurd stuff to put in here lol.
