@@ -1,1 +1,3 @@
-this started as a practice for linking images and web pages and quickly turned into its own mini website project as I kept thinking of more absurd stuff to put in here lol.
+This used to be a practice for MDN but was developed into a mini website to
+learn more about links and linking webpages to eachother. I would use this
+demo as a basis for developing Nan.com 3.0.
