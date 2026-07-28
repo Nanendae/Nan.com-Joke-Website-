@@ -1,0 +1,57 @@
+h1 {
+    color:red;
+}
+
+p,
+li {
+    color: blue;
+}
+
+.special {
+    color: orange;
+    font-weight: bold;
+}
+
+li em {
+    color: rebeccapurple;
+}
+
+h1 + p {
+    font-size: 200%;
+}
+
+a:link {
+    color:pink;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.outer {
+  border: 5px solid black;
+}
+
+.box {
+  padding: 10px;
+  width: calc(20% - 30px);
+  background-color: rebeccapurple;
+  color: white;
+}
+
+.bluebox {
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+    background-color: aquamarine;
+    transform: translate(500px,200px) rotate(0.8turn);
+}
+
+body {
+    background-image: repeating-linear-gradient(rgb(79, 154, 230),rgb(212, 218, 215));
+}
+
