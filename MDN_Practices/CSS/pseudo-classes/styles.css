@@ -1,0 +1,12 @@
+.first {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+::first-line:hover {
+    color: blue;
+}
+
+p:last-child {
+    background-color: orange;
+}
