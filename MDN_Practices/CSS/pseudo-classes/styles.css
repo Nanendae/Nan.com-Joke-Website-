@@ -3,7 +3,7 @@
   font-weight: bold;
 }
 
-::first-line:hover {
+p:first-child:first-line:hover {
     color: blue;
 }
 
