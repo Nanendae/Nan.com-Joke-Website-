@@ -18,19 +18,19 @@ th {
 
 /* Add styles here */
 
-a.link {
+a {
     color: orange;
 }
 
-a.link:visited {
+a:visited {
     color: green;
 }
 
-a.link:hover {
+a:hover {
     text-decoration: none;
 }
 
-table tbody li:nth-child(even){
+tr:nth-child(even){
     background-color: #333333;
     color: white;
 }
