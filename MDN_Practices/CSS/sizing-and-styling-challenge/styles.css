@@ -15,11 +15,11 @@ body {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: calc(2vw + 1em);
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: calc(1.5vw + .75em);
 }
 
 a {
@@ -31,10 +31,20 @@ a:focus {
   text-decoration: none;
 }
 
+img {
+    max-width: 90%;
+    margin: 0 auto;
+    border: solid 1px #28587b;
+    display: block;
+}
+
 /* Styling the pane */
 
 .pane {
   height: 100%;
+  width: clamp(480px, 60%, 1000px);
+  margin: 0 auto;
+  background-image: linear-gradient(to bottom,#9fb4c7,#7f7caf)
 }
 
 h1,
@@ -43,10 +53,17 @@ h1,
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100px;
 }
 
 .content {
+    height: calc(100% - 200px);
+    overflow: scroll;
+    border: 2px solid #28587b;
+    background: url(https://mdn.github.io/shared-assets/images/examples/big-star.png)
+    top 5px right 15px / 40px no-repeat #eeeeff;
 }
+
 
 .controls {
   justify-content: space-around;
@@ -56,4 +73,27 @@ h1,
 
 button {
   flex: 1;
+  height: 100%;
+  font-size: 1.2em;
+  color: white;
+  background-color: rgb(40 88 123 / 0.8);
+}
+
+button:hover, button:focus {
+    background-color: rgb(40 88 123 / 1);
+}
+
+/* Extra Rules*/
+
+.pane h1::before{
+    content: "📖";
+    padding: 20px;
+}
+
+.pane, .content{
+    padding: 0px 20px;
+}
+
+.content, button {
+    border-radius: 10px;
 }
